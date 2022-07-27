@@ -1,7 +1,3 @@
 [GitLab]
 InstanceUrl=http://gitlab.com
 PersonalAccessToken=abcdefghijklmnopqrstuvwxyz
-
-[Project]
-Id=XX
-FeatureFlag=test

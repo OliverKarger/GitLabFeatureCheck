@@ -1,0 +1,314 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jul 27 14:16:45 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\oliver.karger
+# environment
+DOKANLIBRARY2_LIBRARYPATH_X86 = C:\Program Files\Dokan\Dokan Library-2.0.3\x86\lib\
+# environment
+LOCALAPPDATA = C:\Users\oliver.karger\AppData\Local
+# environment
+VSCODE_CWD = C:\Users\oliver.karger\Desktop\GitLabFeatureCheck
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\AppvPkgConverter;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\AppvSequencer;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+USERDNSDOMAIN = MUETEC.LOCAL
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17860_SJGQGFDSEXSWZGLT
+# makefile (from 'makefile', line 1)
+PYMAIN = src/main.py
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# makefile (from 'makefile', line 6)
+OUTDIR = bin
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\oliver.karger\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\OLIVER~1.KAR\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\oliver.karger\OneDrive
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# makefile
+CURDIR := c:/Users/oliver.karger/Desktop/GitLabFeatureCheck
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+DOKANLIBRARY2_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan Library-2.0.3\lib\
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# environment
+PT8HOME = C:\Program Files\Cisco Packet Tracer 8.1.1
+# environment
+VSCODE_PID = 17860
+# environment
+CLION = C:\Program Files\JetBrains\CLion 2022.1.3\bin;
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\oliver.karger
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WEBSTORM = C:\Program Files\JetBrains\WebStorm 2022.1.3\bin;
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;\\muetec.local\SysVol\muetec.local\Policies\{AC9E47CC-8E23-4BBC-86E5-6B6148F433E0}\Machine\Scripts\Startup;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\;C:\Program Files (x86)\gnupg\bin;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Azure Data Studio\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\UtilZ\7zip;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Certbot\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PowerShell\7\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\OpenSSH-Win64;C:\Program Files\Git\cmd;C:\Users\oliver.karger\AppData\Local\Microsoft\WindowsApps;C:\Users\oliver.karger\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\oliver.karger\AppData\Roaming\npm;C:\Users\oliver.karger\.dotnet\tools;C:\openssl-3\x64\bin;C:\Users\oliver.karger\AppData\Local\Programs\Hyper\resources\bin;C:\Program Files (x86)\Nmap;C:\Program Files\OpenSSL-Win64\bin;C:\tools\neovim\Neovim\bin;C:\Program Files (x86)\CCom\;C:\Program Files (x86)\Compose Generator\;C:\Program Files\JetBrains\CLion 2022.1.3\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;C:\Program Files\JetBrains\WebStorm 2022.1.3\bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = ORG10
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+OPENSSL_CONF = C:\Program Files\OpenSSL-Win64\bin\openssl.cfg
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133032075226404561
+# environment
+LOGONSERVER = \\SERV-AHO-DOM1
+# environment
+USERNAME = Oliver.Karger
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# automatic
++F = $(notdir $+)
+# makefile (from 'makefile', line 5)
+OUTFILE = gfc.exe
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = MUETEC
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := install
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'makefile', line 9)
+BINSETTINGS = --windows-company-name="Oliver Karger" --windows-product-name="GitLabFeatureCheck" --windows-file-version=1.0.0 --windows-product-version=0.5.0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+DXROOT = C:\Program Files (x86)\Sandcastle\
+# environment
+USERDOMAIN_ROAMINGPROFILE = MUETEC
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\oliver.karger\AppData\Roaming
+# makefile (from 'makefile', line 8)
+CFLAGS = --standalone --onefile --remove-output
+# environment
+HOMEDRIVE = C:
+# environment
+DOKANLIBRARY2 = C:\Program Files\Dokan\Dokan Library-2.0.3\
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+DATAGRIP = C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'makefile', line 2)
+PYINT = python
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\OLIVER~1.KAR\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\efb2ae092a58dade043f7efcf391f11a-1.69.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = a502
+# makefile (from 'makefile', line 3)
+PYREQ = requirements.txt
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# variable set hash-table stats:
+# Load=110/1024=11%, Rehash=0, Collisions=10/137=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/oliver.karger/Desktop/GitLabFeatureCheck, mtime 1658924203): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+compile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 16):
+	-mkdir $(OUTDIR)
+	$(PYINT) -m nuitka $(CFLAGS) $(BINSETTINGS) --output-dir=$(OUTDIR) -o $(OUTFILE) $(PYMAIN)
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 20):
+	-rmdir /s /q $(OUTDIR)
+	-del /s /q $(OUTFILE)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-27 11:29:54
+#  File has been updated.
+#  Successfully updated.
+
+install:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 12):
+	choco install dependencywalker
+	$(PYINT) -m pip install -r $(PYREQ)
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 161 B / avg = 8 B
+# current buf: size = 8174 B / used = 161 B / count = 20 / avg = 8 B
+
+# strcache performance: lookups = 27 / hit rate = 25%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=0/27=0%
+# Finished Make data base on Wed Jul 27 14:16:45 2022
+
+ 

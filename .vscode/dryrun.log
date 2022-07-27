@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/oliver.karger/Desktop/GitLabFeatureCheck'
+choco install dependencywalker
+python -m pip install -r requirements.txt
+make: Leaving directory 'c:/Users/oliver.karger/Desktop/GitLabFeatureCheck'
+ 

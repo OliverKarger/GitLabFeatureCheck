@@ -12,6 +12,9 @@ install:
 	choco install dependencywalker
 	$(PYINT) -m pip install -r $(PYREQ)
 
+run:
+	python $(PYMAIN) ./config.local
+
 compile:
 	-mkdir $(OUTDIR)
 	$(PYINT) -m nuitka $(CFLAGS) $(BINSETTINGS) --output-dir=$(OUTDIR) -o $(OUTFILE) $(PYMAIN)
